@@ -1,6 +1,6 @@
 # 📂 Case Studies: Famous U.S. Cybersecurity Breaches
 
-This directory contains a collection of deep-dive analyses into some of the most significant cybersecurity incidents in U.S. history. Each report breaks down the **attack vector**, the **business impact**, and the **critical remediation steps** that could have prevented the incident.
+This directory contains a collection of deep-dive cybersecurity case studies into some of the cybersecurity incidents in the U.S. I study each report to understand the **attack vector**, the **business impact**, and the **critical remediation steps** that could have prevented the incident. 
 
 ## 📑 Included Case Studies
 
