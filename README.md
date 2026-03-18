@@ -22,18 +22,20 @@ This directory contains the practical steps and documentation used to close the 
 * **Step-by-Step Patching Guides:** Documentation on how to mitigate specific CVEs.
 * **Architecture Adjustments:** Explanations for editing the networks to implement Zero Trust principles or network segmentation.
 
-### 3. 📜 Famous Cybersecurity Reports & Case Studies
+### 3. 📑 ISO 27001
 
-To understand the current threat landscape, we must study the past. This folder contains my personal analyses and summaries of landmark cybersecurity breaches and industry reports.
+Documentation of ISO 27001 control implementation within Microsoft Azure.
+
+### 4. 📜 Famous Cybersecurity Reports & Case Studies
+
+To understand the current threat landscape, this folder contains analyses and summaries of famous cybersecurity breaches and industry reports. PUrpose is to study them, understand what happened, and what could be done to prevent the attack. 
 
 * **Incident Post-Mortems:** Deep dives into famous breaches.
 * **Threat Actor Tactics:** Breakdowns of how advanced persistent threats (APTs) mapped to the MITRE ATT&CK framework during these historical events.
 * **Lessons Learned:** Strategic takeaways on how modern security frameworks (like NIST or CMMC) could have prevented these disasters.
 
 
-### 4. 📑 ISO 27001
 
-Documentation of ISO 27001 control implementation within Microsoft Azure.
 
 ---
 
