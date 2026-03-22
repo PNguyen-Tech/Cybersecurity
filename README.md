@@ -5,7 +5,7 @@ Welcome to my cybersecurity repository. This repository serves as a practical, h
 
 ## 📂 What You Will Find Here
 
-This repository is divided into three core pillars:
+This repository is divided into five core pillars:
 
 ### 1. 🔍 Vulnerability Scans & Assessments
 
@@ -17,14 +17,14 @@ This section contains raw and sanitized output from Nessus security assessment t
 
 ### 2. 🛠️ Remediations & Hardening Strategies
 
-This directory contains the practical steps and documentation used to close the vulnerabilities found in the scans.
+Contains the steps and documentation used to close the vulnerabilities found in the scans.
 
 * **Step-by-Step Patching Guides:** Documentation on how to mitigate specific CVEs.
 * **Architecture Adjustments:** Explanations for editing the networks to implement Zero Trust principles or network segmentation.
 
 ### 3. 📑 ISO 27001
 
-Documentation of ISO 27001 control implementation within Microsoft Azure.
+Documentation of ISO 27001 simulated control implementation within Microsoft Azure.
 * **Practice** Documentation on ISO 27001 and my practice mapping it to my current projects.
   
 ### 4. 📜 Famous Cybersecurity Reports & Case Studies
@@ -34,5 +34,9 @@ To understand the current threat landscape, this folder contains analyses and su
 * **Incident Post-Mortems:** Deep dives into famous breaches.
 * **Threat Actor Tactics:** Breakdowns of how advanced persistent threats (APTs) mapped to the MITRE ATT&CK framework during these historical events.
 * **Lessons Learned:** Strategic takeaways on how modern security frameworks (like NIST or CMMC) could have prevented these disasters.
+
+### 5. 🛡️ GRC Practice
+
+Contains practical GRC exercises, including risk assessments, threat modeling, and simulated audits for a mock financial technology environment.
 
 
