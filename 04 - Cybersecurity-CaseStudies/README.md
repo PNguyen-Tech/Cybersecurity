@@ -8,4 +8,4 @@ This directory contains a collection of deep-dive cybersecurity case studies int
 | :--- | :--- | :--- | :--- |
 | **Conduent Data Breach** | 2025 | Network intrusion targeting unencrypted "data in use" | Continuous Encryption|
 | **Stryker Wiper Attack** | 2026 | Compromised administrative account weaponizing MDM (Intune) | Zero Standing Privileges (ZSP) |
-
+| **d** | 2026 | Compromised administrative account weaponizing MDM (Intune) | Zero Standing Privileges (ZSP) |
