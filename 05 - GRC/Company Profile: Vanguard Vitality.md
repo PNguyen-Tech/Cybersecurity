@@ -4,7 +4,7 @@
 **Vanguard Vitality** is a rapidly expanding, regional fitness chain with five locations. Founded by fitness enthusiasts rather than corporate administrators, the company has historically prioritized gym equipment and member experience over robust IT infrastructure. 
 
 ## The Onboarding Process
-To handle the influx of new members, Vanguard Vitality currently uses a standard, public-facing Google Form linked on their website and social media. When a prospective member applies, the form responses automatically populate into a single Google Sheet. 
+To handle the influx of new members and budget cost, Vanguard Vitality currently uses a standard, public-facing Google Form linked on their website and social media. When a prospective member applies, the form responses automatically populate into a single Google Sheet. 
 
 ---
 
