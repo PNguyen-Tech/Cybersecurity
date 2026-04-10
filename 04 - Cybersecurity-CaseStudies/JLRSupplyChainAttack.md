@@ -11,7 +11,7 @@
 
 In September 2025, Jaguar Land Rover (JLR) experienced a massive operational shutdown due to a cyberattack executed by the Scattered Spider group. Rather than a standard data exfiltration event, this attack paralyzed the communication between corporate offices and the factory floor. The disruption forced a multi-week shutdown of global manufacturing plants, resulting in an estimated £1.9 billion ($2.5 billion) financial impact on the business.
 
-## 🥷 Attack Chain: How the Hackers Compromised the System
+## 🔗 Attack Chain: How the Hackers Compromised the System
 
 The breach was executed in the following distinct phases:
 
