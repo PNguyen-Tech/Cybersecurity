@@ -11,7 +11,7 @@
 
 In late 2025, TransUnion suffered a massive data exfiltration event. Unlike traditional breaches that involve penetrating a company's core internal networks or mainframes, this incident exploited the modern SaaS supply chain. The notorious threat group ShinyHunters bypassed TransUnion's primary perimeter defenses by compromising a trusted third-party vendor. By hijacking the vendor's legitimate integration into TransUnion’s Salesforce CRM environment, the attackers silently siphoned millions of highly sensitive consumer credit profiles and personally identifiable information (PII), holding the data for ransom on dark web forums.
 
-🥷 **Attack Chain: How the Hackers Compromised the System**
+🔗 **Attack Chain: How the Hackers Compromised the System**
 
 Based on forensic analysis of the SaaS supply chain attack, the execution followed these distinct phases:
 
