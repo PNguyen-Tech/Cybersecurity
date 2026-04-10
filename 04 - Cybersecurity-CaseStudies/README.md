@@ -11,3 +11,4 @@ On some case studies, there will be a link to ISO 27001 to practice mapping the 
 | **Conduent Data Breach** | 2025 | Network intrusion targeting unencrypted "data in use" | Continuous Encryption|
 | **Stryker Wiper Attack** | 2026 | Compromised administrative account weaponizing MDM (Intune) | Zero Standing Privileges (ZSP) |
 | **Jaguar Land Rover (JLR)** | 2025 | Unpatched Third-Party Software (SAP) & IT/OT Pivot | Enforce strict IT/OT network segmentation and automate vendor vulnerability management to prevent operational shutdowns. |
+| **TransUnion Data Breach** | 2025 | Exploitation of third-party Salesforce integrations by the ShinyHunters threat group. | mplement strict Third-Party Risk Management (TPRM) and SaaS Posture Management. |
