@@ -9,7 +9,7 @@
 ## 🚨 The Incident
 Between October 21, 2024, and January 13, 2025, the SafePay ransomware group maintained unauthorized access to the network of Conduent Business Services. The threat actors lurked undetected for nearly three months (an 84-day dwell time), exfiltrating an estimated 8 to 8.5 terabytes of highly sensitive data. The breach was detected on January 13, 2025, when Conduent experienced a massive operational disruption due to a ransomware payload being executed, prompting the initiation of their cybersecurity response plan.
 
-## 🥷 Attack Chain: How the Hackers Compromised the System
+## 🔗 Attack Chain: How the Hackers Compromised the System
 
 
 Based on threat intelligence regarding the SafePay group, the attack was executed in four distinct phases:
