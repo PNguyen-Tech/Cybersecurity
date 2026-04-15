@@ -1,6 +1,6 @@
 # 🛡️ GRC & Risk Management Portfolio
 
-Welcome to my Governance, Risk, and Compliance (GRC) portfolio. This repository contains hands-on exercises and simulated risk management frameworks designed to demonstrate my ability to translate technical vulnerabilities into measurable business risks.
+Welcome to my Governance, Risk, and Compliance (GRC) portfolio. This repository contains hands-on exercises and simulated risk management frameworks designed to demonstrate my ability to translate the technical vulnerabilities into measurable business risks.
 
 ## 📖 About This Repository
-As I align my career focus toward Cloud Security and GRC—supported by my MS in Management Information Systems (MIS) studies—I created this space to showcase applied risk management. 
+This is a dedicated space where I document everything I am learning about Cloud Security and GRC during my MIS graduate studies. It is a mix of my personal study notes and a few simulated portfolios where I am practicing hands on risk management.
