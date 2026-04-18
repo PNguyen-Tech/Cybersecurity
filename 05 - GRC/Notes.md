@@ -11,7 +11,7 @@ To understand how these risk management concepts work together, here is how they
 
 # GRC Interview Prep: Risk Registers Deep Dive
 
-As a GRC Consultant, you need to understand that a risk register is not just a static spreadsheet—it is the living, breathing "heartbeat" of an organization's risk management program. It bridges the gap between technical vulnerabilities and business impact.
+As a GRC Consultant, need to understand that a risk register is not just a static spreadsheet—it is the living, breathing "heartbeat" of an organization's risk management program. It bridges the gap between technical vulnerabilities and business impact.
 
 ## 1. What is a Risk Register?
 A risk register is a centralized repository (often a spreadsheet, database, or dedicated GRC platform like ServiceNow, AuditBoard, or OneTrust) used to identify, track, and manage potential risks that could impact an organization's objectives. 
