@@ -12,7 +12,7 @@ This repository is divided into five core pillars:
 This section contains raw and sanitized output from Nessus security assessment tools. It demonstrates my methodology for identifying vulnerabilities across different environments (including cloud infrastructure and enterprise networks).
 
 * **Network & Port Scans:** Nmap scan outputs detailing open ports, service versions, and OS fingerprinting.
-* **Vulnerability Assessments:** Reports generated from tools like Nessus or OpenVAS, categorized by CVSS (Common Vulnerability Scoring System) severity.
+* **Vulnerability Assessments:** Reports generated from tools like Nessus, categorized by CVSS (Common Vulnerability Scoring System) severity.
 * **Cloud Configurations:** Scans of Azure environments demonstrating misconfigurations in identity and access management (IAM) or storage accounts.
 
 ### 2. 🛠️ Remediations & Hardening Strategies
