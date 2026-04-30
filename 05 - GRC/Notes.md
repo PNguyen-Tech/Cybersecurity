@@ -1,3 +1,5 @@
+###These are notes that I collected over the years on GRC. 
+
 ### Vanguard Vitality: Risk Terminology in Action
 
 To understand how these risk management concepts work together, here is how they apply directly to Vanguard Vitality's current onboarding process:
@@ -44,7 +46,3 @@ An outdated risk register is worse than no risk register because it provides a f
 * **Update Based on Control Effectiveness:** If an audit reveals that a control is failing (e.g., an access review wasn't done), the **Residual Risk Score** must go back up until the control is fixed.
 * **Track Emerging Risks:** Continuously scan the environment. If new regulations pass (like a new privacy law) or a new major vulnerability is announced, add those to the register immediately.
 * **Archiving:** When a risk is fully avoided or no longer relevant (e.g., a legacy server is finally decommissioned), close and archive the risk. Do not delete it; keep the historical record for auditors. 
-
----
-> **💡 Interview Tip:**
-> If an interviewer asks you about risk registers, emphasize **communication**. Tell them: *"A risk register is only as good as the conversations it creates. My goal when building and maintaining one is to translate complex technical risks into business impacts so leadership can allocate budget and resources effectively."*
