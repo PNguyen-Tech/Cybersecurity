@@ -15,9 +15,9 @@ Documentation of core GRC frameworks and concepts.
 * **MIS Coursework:** Academic reflections on IT auditing and governance.
 
 ### 🧪 [Samples/](./Samples/)
-Hands-on simulations of risk assessments for various organizational profiles.
-* **Azure Storage Audit:** Evaluating encryption and access policies for cloud-native data.
-* **Vanguard Vitality:** A simulated assessment of a high-availability healthcare platform.
+A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles.
+* **Cloud Infrastructure Assessments:** Evaluating encryption, identity access management, and overall security posture for modern cloud environments.
+* **Industry Compliance Scenarios:** Simulated evaluations of high-availability business systems against standard regulatory frameworks to ensure operational resilience.
 
 ### 🌐 [Live-Projects/](./Live-Projects/)
 GRC reports for active technical deployments.
