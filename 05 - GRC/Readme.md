@@ -14,7 +14,7 @@ Documentation of core GRC frameworks and concepts.
 * **SOC 2 Trust Services Criteria:** Analysis of Security, Availability, and Confidentiality.
 * **MIS Coursework:** Academic reflections on IT auditing and governance.
 
-### 🧪 [Case-Studies/](./Case-Studies/)
+### 🧪 [Samples/](./Samples/)
 Hands-on simulations of risk assessments for various organizational profiles.
 * **Azure Storage Audit:** Evaluating encryption and access policies for cloud-native data.
 * **Vanguard Vitality:** A simulated assessment of a high-availability healthcare platform.
