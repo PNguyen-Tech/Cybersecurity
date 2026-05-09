@@ -10,7 +10,8 @@ To deconstruct the "Description of the System" (Section 3) from the Product Frui
 ### 1. Overview of Operations
 * **Primary Service Provided:**
   Product Fruits is a cloud-hosted software application that is a digitial adoption platform, they assist in users learning and nagviating a website. 
-* **Core Commitments:** 
+* **Core Commitments:**
+  The company's commitment include utilzing authentication, least privlege, and monitoring and logging key infrastructures. The second commitment is confidentality where the company utilizes encryption for data at rest and in transit, non-disclosure agreements with all parties (employee, constractors and third parties), and information will only be used for its intended purpose. The last commitment is availability. Fruit Company commits that there are systems' monitoring, responding to customer issues, a business continuity and disaster recovery plan, and procedures to ensure the company's commitment to deliver a viable product. 
 
 
 ### 2. Infrastructure & Network Architecture
