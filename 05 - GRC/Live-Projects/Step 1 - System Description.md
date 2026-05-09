@@ -9,14 +9,15 @@ To deconstruct the "Description of the System" (Section 3) from the Product Frui
 
 ### 1. Overview of Operations
 * **Primary Service Provided:**
-  Product Fruits is a cloud-hosted software application that is a digitial adoption platform, they assist in users learning and nagviating a website. 
+Product Fruits is a cloud-hosted software application acting as a digital adoption platform for web applications.
 * **Core Commitments:**
-  The company's commitment include utilzing authentication, least privlege, and monitoring and logging key infrastructures. The second commitment is confidentality where the company utilizes encryption for data at rest and in transit, non-disclosure agreements with all parties (employee, constractors and third parties), and information will only be used for its intended purpose. The last commitment is availability. Fruit Company commits that there are systems' monitoring, responding to customer issues, a business continuity and disaster recovery plan, and procedures to ensure the company's commitment to deliver a viable product. 
-
+ The company utilizes role-based authentication to enforce least privilege and actively monitors key infrastructure components to generate alerts. Data is protected via industry-standard encryption both at rest and in transit. Furthermore, non-disclosure agreements are enforced across employees, contractors, and third parties to ensure information is only used for its explicit purpose. Product Fruits s.r.o. commits to continuous system monitoring, timely customer response procedures, and periodic testing of their business continuity and disaster recovery plans to ensure viable product delivery.
 
 ### 2. Infrastructure & Network Architecture
-* **Cloud Provider:** [e.g., AWS, Azure, GCP]
-* **Network Security Mechanisms:** [Describe how the network is protected, e.g., Virtual Private Cloud (VPC), firewalls, deny-by-default security groups.]
+* **Cloud Provider:**
+AWS
+* **Network Security Mechanisms:**
+Product Fruits secures its network by using a Virtual Prviate CLoud that has a single authrozied point of entry with firewalls. As users connects with the the web application, data is encrypted over HTTPS
 * **Data Flow:** [Briefly map how a user connects to the application from the internet to the internal servers.]
 
 ### 3. Software
