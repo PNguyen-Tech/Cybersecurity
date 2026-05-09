@@ -9,7 +9,7 @@ To deconstruct the "Description of the System" (Section 3) from the Product Frui
 
 ### 1. Overview of Operations
 * **Primary Service Provided:**
-* Product Fruits is a cloud-hosted software application that is a digitial adoption platform, they assist in users learning and nagviating a website. 
+  Product Fruits is a cloud-hosted software application that is a digitial adoption platform, they assist in users learning and nagviating a website. 
 * **Core Commitments:** 
 
 
