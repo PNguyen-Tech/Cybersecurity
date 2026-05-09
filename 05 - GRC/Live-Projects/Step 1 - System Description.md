@@ -8,8 +8,10 @@ To deconstruct the "Description of the System" (Section 3) from the Product Frui
 ## 🏗️ System Components Breakdown
 
 ### 1. Overview of Operations
-* **Primary Service Provided:** [Briefly describe what the application does, e.g., A cloud-hosted digital adoption platform.]
-* **Core Commitments:** [List the main promises the company makes regarding Security, Confidentiality, and Availability.]
+* **Primary Service Provided:**
+* Product Fruits is a cloud-hosted software application that is a digitial adoption platform, they assist in users learning and nagviating a website. 
+* **Core Commitments:** 
+
 
 ### 2. Infrastructure & Network Architecture
 * **Cloud Provider:** [e.g., AWS, Azure, GCP]
