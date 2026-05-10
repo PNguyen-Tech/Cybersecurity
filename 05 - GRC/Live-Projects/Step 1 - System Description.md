@@ -23,8 +23,10 @@ The data flow initiates when a client connects via the public internet utilizing
 From the ALB, requests are processed by the core web application hosted on Elastic Container Service (ECS) Fargate instances. To decouple backend processing, the ECS services pass asynchronous tasks to SNS (notifications) and SQS (message queues). These queues trigger AWS Lambda functions, which execute the necessary backend logic. Finally, the Lambda functions write to the deepest layer of the private network: the data tier, consisting of Amazon DocumentDB (NoSQL) and PostgreSQL (Relational) databases.
 
 ### 3. Software
-* **Key Applications/Tools:** [List the main software components utilized, e.g., GitHub for version control, Office 365 for communication.]
-* **Primary Tech Stack:** [List languages/frameworks if mentioned.]
+* **Key Applications/Tools:**
+Product Fruits Application, AWS IAM, AWS Firewalls, GitHub, Office 365, and Sprinto. 
+* **Primary Tech Stack:**
+C#, javaScript, Go, and Python
 
 ### 4. People
 * **Key Roles Identified:** [List the essential security and operational roles, e.g., Information Security Officer, Compliance Program Manager.]
