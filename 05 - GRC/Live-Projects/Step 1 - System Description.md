@@ -1,7 +1,7 @@
 # Phase 1: System Description Analysis
 
 ## 🎯 Objective
-To deconstruct the "Description of the System" (Section 3) from the Product Fruits SOC 2 Type 2 report. This analysis identifies how the organization defines its boundaries and categorizes its core components prior to applying security controls.
+To deconstruct the "Description of the System" (Section 3) from the Product Fruits SOC 2 Type 2 report. This analysis identifies how the organization defines its boundaries and categorizes its core components prior to applying security controls. This sample report also allows me to practice translating Azure to AWS system. 
 
 ---
 
