@@ -24,13 +24,13 @@ From the ALB, requests are processed by the core web application hosted on Elast
 
 ### 3. Software
 * **Key Applications/Tools:**
-* **Product Fruits Application:** The core cloud-hosted SaaS platform being audited.
-* **AWS IAM:** Manages identity and access to AWS cloud resources.
-* **AWS Firewalls:** Protects the network perimeter and segregates backend database servers from internal traffic.
-* **GitHub:** Serves as the source code repository and enforces version control.
-* **Office 365:** Provides the internal identity/email provider and collaboration suite for employees.
-* **Sprinto:** A continuous compliance monitoring tool used to track the health of the security program.
-* **Primary Tech Stack:**
+ **Product Fruits Application:** The core cloud-hosted SaaS platform being audited.
+ **AWS IAM:** Manages identity and access to AWS cloud resources.
+ **AWS Firewalls:** Protects the network perimeter and segregates backend database servers from internal traffic.
+ **GitHub:** Serves as the source code repository and enforces version control.
+ **Office 365:** Provides the internal identity/email provider and collaboration suite for employees.
+ **Sprinto:** A continuous compliance monitoring tool used to track the health of the security program.
+ **Primary Tech Stack:**
 C#, javaScript, Go, and Python
 
 ### 4. People
