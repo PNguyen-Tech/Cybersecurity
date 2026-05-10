@@ -19,8 +19,12 @@ AWS
 * **Network Security Mechanisms:**
 Product Fruits secures its network by using a Virtual Prviate CLoud that has a single authrozied point of entry with firewalls. As users connects with the the web application, data is encrypted over HTTPS
 * **Data Flow:**
-The data flow initiates when a client connects via the public internet utilizing TLS-encrypted HTTPS. Upon reaching the AWS EU-West-1 region, traffic is routed through either an Application Load Balancer (ALB) for standard web requests or an API Gateway for programmatic service requests.
-From the ALB, requests are processed by the core web application hosted on Elastic Container Service (ECS) Fargate instances. To decouple backend processing, the ECS services pass asynchronous tasks to SNS (notifications) and SQS (message queues). These queues trigger AWS Lambda functions, which execute the necessary backend logic. Finally, the Lambda functions write to the deepest layer of the private network: the data tier, consisting of Amazon DocumentDB (NoSQL) and PostgreSQL (Relational) databases.
+The data flow initiates when a client connects via the public internet utilizing TLS-encrypted HTTPS.  
+Upon reaching the AWS EU-West-1 region, traffic is routed through either an Application Load Balancer (ALB) for standard web requests or an API Gateway for programmatic service requests.  
+From the ALB, requests are processed by the core web application hosted on Elastic Container Service (ECS) Fargate instances.  
+ To decouple backend processing, the ECS services pass asynchronous tasks to SNS (notifications) and SQS (message queues).  
+These queues trigger AWS Lambda functions, which execute the necessary backend logic.  
+Finally, the Lambda functions write to the deepest layer of the private network: the data tier, consisting of Amazon DocumentDB (NoSQL) and PostgreSQL (Relational) databases.
 
 ### 3. Software
 * **Key Applications/Tools:**
