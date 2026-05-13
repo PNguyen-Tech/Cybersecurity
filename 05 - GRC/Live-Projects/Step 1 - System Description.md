@@ -44,7 +44,7 @@ C#, javaScript, Go, and Python
 **Compliance Program manager** Responsible for the smooth functioning of the Information Security Program and ensuring the timely completion of tasks required for all information security controls.  
 **System Users** Staff members who utilize the IT systems according to established policies and guidelines; they are required to complete annual security awareness training.  
 
-* **Access Philosophy:**
+* **Access Philosophy:**  
 **Role-Based Access Control (RBAC):** The system utilizes a role-based security architecture that requires users to be identified and authenticated before accessing system resources.   
 **Principle of Least Privilege (PoLP):** All access to critical systems is granted based on the minimum necessary permissions required for a staff member to perform their specific job function.  
 
