@@ -39,10 +39,10 @@ C#, javaScript, Go, and Python
 
 ### 4. People
 * **Key Roles Identified:**  
-**Senior Management**  
-**Information SEcurity Officer**  
-**Compliance Program manager**  
-**System Users**
+**Senior Management**  Carries the ultimate responsibility for achieving the organization's mission and objectives while ensuring resources are effectively applied to the security program.
+**Information Security Officer** Assigned by Senior Management to manage the performance of the information security program, including identifying threats and implementing controls to mitigate risks.
+**Compliance Program manager** Responsible for the smooth functioning of the Information Security Program and ensuring the timely completion of tasks required for all information security controls.
+**System Users** Staff members who utilize the IT systems according to established policies and guidelines; they are required to complete annual security awareness training.
 
 * **Access Philosophy:** [Describe the overarching approach to user access, e.g., Principle of Least Privilege, Role-Based Access Control (RBAC).]
 
