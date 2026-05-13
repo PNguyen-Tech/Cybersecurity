@@ -38,10 +38,10 @@ Product Fruits secures its network by using a Virtual Prviate CLoud that has a s
 C#, javaScript, Go, and Python
 
 ### 4. People
-* **Key Roles Identified:** 
-**Senior Management**
-**Information SEcurity Officer**
-**Compliance Program manager**
+* **Key Roles Identified:**  
+**Senior Management**  
+**Information SEcurity Officer**  
+**Compliance Program manager**  
 **System Users**
 
 * **Access Philosophy:** [Describe the overarching approach to user access, e.g., Principle of Least Privilege, Role-Based Access Control (RBAC).]
