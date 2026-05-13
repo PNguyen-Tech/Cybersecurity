@@ -49,8 +49,20 @@ C#, javaScript, Go, and Python
 **Principle of Least Privilege (PoLP):** All access to critical systems is granted based on the minimum necessary permissions required for a staff member to perform their specific job function.  
 
 ### 5. Procedures
-* **Critical Policies in Place:** [List 3-5 major policies mentioned, e.g., Change Management, Incident Management, Data Retention.]
-* **Policy Enforcement:** [How are employees held accountable? e.g., Annual acknowledgments, security awareness training.]
+* **Critical Policies in Place:**
+**Code of Business Conduct:** Formally documents the organization's values and ethical behavioral standards to ensure all staff operate with integrity.  
+  Example: An employee is offered a gift from a potential vendor in exchange for a contract. The Code of Business Conduct provides the rules that tell the employee they must decline the gift to avoid a conflict of interest and maintain integrity.  
+**Change Management:** Guides staff in documenting, reviewing, and implementing application and infrastructure changes to prevent service degradation or the introduction of vulnerabilities.  
+  Example: A developer wants to push a new feature to the Product Fruits platform. Before it goes live, the policy requires them to submit a Pull Request in GitHub for a peer review. This ensures a second pair of eyes checks the code for security flaws before it reaches the production servers.  
+**Information Security:** Defines the organization's approach to protecting systems and data, covering design, development, and operational security.  
+  Example: The policy dictates that all data must be encrypted. Because of this, the engineering team ensures that the AWS PostgreSQL database is configured with AES 256-bit encryption, ensuring that even if a physical hard drive were stolen, the data would be unreadable.  
+**Vendor Management:** Provides guidance on performing risk assessments of third-party suppliers and critical vendors to ensure they meet the company's security standards.  
+  Example: Product Fruits uses AWS to host their servers. Under this policy, the Information Security Officer must perform an annual review of AWS’s own SOC 2 report to verify that Amazon is keeping the physical data centers secure.  
+**Risk Management:** Describes the formal process for identifying, measuring, and mitigating threats that could impair system security, availability, and confidentiality.  
+  Example: During an annual assessment, the team identifies that a specific server is running an outdated version of Linux. They give this a "High Risk" score based on likelihood and impact. They then schedule a patch (mitigation) to fix the vulnerability and lower the risk score.  
+
+* **Policy Enforcement:** 
+All staff members have been the the policy and the expectation that they need to follow through. Staff members are required to acknowledge to understanding the policies and complete yearly reviews of them. 
 
 ### 6. Data Classification
 * **Classification Tiers:** [Define the data tiers used by the organization, e.g., Customer Confidential, Company Confidential, Public.]
