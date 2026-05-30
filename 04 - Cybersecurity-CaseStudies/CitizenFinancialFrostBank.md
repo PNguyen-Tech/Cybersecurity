@@ -52,3 +52,23 @@ This incident highlights the devastating potential of supply chain attacks, wher
 * **Rigorous TPRM and Continuous Auditing:** Organizations must move beyond annual compliance checklists. Third-party vendors handling sensitive data must be subject to continuous security posture monitoring and strict, contractual Service Level Agreements (SLAs) regarding their internal controls (ISO 27001 Control 5.19 - Information security in supplier relationships).
 * **Mandatory Encryption for "Data at Rest":** Vendors must architect their storage so that client data is cryptographically separated and encrypted at rest, ensuring that even if storage containers are breached, the exfiltrated data remains unreadable (ISO 27001 Control 8.24 - Use of cryptography).
 * **Enforce IT/Cloud Segmentation:** Vendors processing multi-tenant data must implement strict network segmentation. A breach on a standard employee endpoint should never provide a direct pathway to production databases holding client financial records (ISO 27001 Control 8.22 - Segregation of networks).
+
+### **Sources & Citations: Citizens Financial & Frost Bank Breach (2026)**
+
+#### **Threat Intelligence & Incident Overview**
+* **PKWARE.** (2026, May 5). *2026 Data Breaches: Cybersecurity Incidents Explained*. Retrieved from PKWARE Threat Intelligence Blog.
+    * *Reference for:* Incident timeline, the April 20th dark web leak by the Everest group, and specific data categories compromised (e.g., 3.4 million records from Citizens; over 250,000 SSNs, W-2s, and 1099s from Frost).
+* **BlackFog.** (2026, May). *The State of Ransomware: April 2026*. 
+    * *Reference for:* Everest ransomware group's extortion tactics, the release of sample files containing tax identification numbers and mortgage interest rates, and the threat of broader data disclosure.
+
+#### **Governance, Risk, and Compliance (GRC) Analysis**
+* **Schneider Downs.** (2026, May 26). *Third-Party Cyber Risk in Banking: Lessons from Everest Ransomware Claims*. 
+    * *Reference for:* Analysis of third-party risk exposure, the operational and reputational fallout of vendor-related incidents, and post-breach class action litigation developments.
+* **CyberSol.** (2026, May 20). *Vendor Concentration in Financial Services: When Document Processing Becomes a Systemic Risk Vector*. 
+    * *Reference for:* Root cause analysis regarding structural vendor concentration, lack of mandatory data minimization and encryption standards in Service Level Agreements (SLAs), and regulatory liability exposure under emerging frameworks.
+
+#### **Corporate Disclosures & Press Responses**
+* **PYMNTS.** (2026, April 23). *Citizens Bank Customers Targeted in Third-Party Data Breach*.
+    * *Reference for:* Statements from Frost Bank regarding the engagement of external cybersecurity experts and confirmation that internal network perimeters remained uncompromised.
+* **InvestmentNews.** (2026, April 21). *Data breach: Citizens flags limited customer impact after vendor data incident amid ransomware claims.*
+    * *Reference for:* Citizens Financial Group's initial public response, claiming the exfiltrated database consisted largely of "masked test data" and noting enhanced internal monitoring procedures.
