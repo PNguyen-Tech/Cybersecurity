@@ -64,7 +64,7 @@ C#, javaScript, Go, and Python
 * **Policy Enforcement:** 
 All staff members have been the the policy and the expectation that they need to follow through. Staff members are required to acknowledge to understanding the policies and complete yearly reviews of them. 
 
-### 6. Data Classification
+### 6. Data Classification (Data is split into different categories to allow employees to understand it better)
 * **Classification Tiers:** 3 Tier model of Confidential/Restrict, Internal/Prviate, and Public. 
 * **Encryption Standards:** Data encrypted over HTTPS and data at rest in encrypted Advanced Encrypted Standard (AES) 256-bit algorithm.  
 
@@ -72,9 +72,9 @@ All staff members have been the the policy and the expectation that they need to
 
 ## 🚧 System Boundaries & Shared Responsibility
 
-### Boundaries of the Scope
-* **What is Included:** [Define exactly what parts of the business are covered by this audit.]
-* **What is Excluded (Vendor Risk):** [Identify what relies on third parties and how that risk is managed, e.g., relying on AWS physical security reports.]
+### Boundaries of the Scope (Informs the client of what was audited and what was not)
+* **What is Included:** The cloud-hosted software application was audited to determine its effetives in security, confidentality, and availability.
+* **What is Excluded (Vendor Risk):** AWS, GitHub, and Microsoft Office 365. 
 
 ### Complementary User Entity Controls (CUECs)
 * **Customer Responsibilities:** [List key actions the end-user must take to maintain security, e.g., managing their own user access, reporting suspicious activity.]
