@@ -65,8 +65,8 @@ C#, javaScript, Go, and Python
 All staff members have been the the policy and the expectation that they need to follow through. Staff members are required to acknowledge to understanding the policies and complete yearly reviews of them. 
 
 ### 6. Data Classification
-* **Classification Tiers:** [Define the data tiers used by the organization, e.g., Customer Confidential, Company Confidential, Public.]
-* **Encryption Standards:** [Note the encryption used for data at rest and in transit, e.g., AES 256-bit, TLS 1.2+.]
+* **Classification Tiers:** 3 Tier model of Confidential/Restrict, Internal/Prviate, and Public. 
+* **Encryption Standards:** Data encrypted over HTTPS and data at rest in encrypted Advanced Encrypted Standard (AES) 256-bit algorithm.  
 
 ---
 
