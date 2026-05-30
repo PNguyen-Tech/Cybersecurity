@@ -53,7 +53,7 @@ This incident highlights the devastating potential of supply chain attacks, wher
 * **Mandatory Encryption for "Data at Rest":** Vendors must architect their storage so that client data is cryptographically separated and encrypted at rest, ensuring that even if storage containers are breached, the exfiltrated data remains unreadable (ISO 27001 Control 8.24 - Use of cryptography).
 * **Enforce IT/Cloud Segmentation:** Vendors processing multi-tenant data must implement strict network segmentation. A breach on a standard employee endpoint should never provide a direct pathway to production databases holding client financial records (ISO 27001 Control 8.22 - Segregation of networks).
 
-### **Sources & Citations: Citizens Financial & Frost Bank Breach (2026)**
+## 📚 **Sources & Citations: Citizens Financial & Frost Bank Breach (2026)**
 
 #### **Threat Intelligence & Incident Overview**
 * **PKWARE.** (2026, May 5). *2026 Data Breaches: Cybersecurity Incidents Explained*. Retrieved from PKWARE Threat Intelligence Blog.
