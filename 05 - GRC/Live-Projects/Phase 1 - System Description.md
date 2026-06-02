@@ -76,10 +76,12 @@ All staff members have been the the policy and the expectation that they need to
 * **What is Included:** The cloud-hosted software application was audited to determine its effetives in security, confidentality, and availability.
 * **What is Excluded (Vendor Risk):** AWS, GitHub, and Microsoft Office 365. 
 
-### Complementary User Entity Controls (CUECs)
-* **Customer Responsibilities:** [List key actions the end-user must take to maintain security, e.g., managing their own user access, reporting suspicious activity.]
+### Complementary User Entity Controls (CUECs) - (This is the users' responsibility to ensure the software will work as intended as long as users follow the guidelines)
+* **Customer Responsibilities:** Customers must actively manage their software application account and establish customized security solutions or automated processes. They must ensure only authorized users are appointed as administrators for granting access, and they must immediately notify Product Fruits of any unauthorized account use or suspected security breaches. Additionally, customers are fully responsible for any data modifications or changes made to user and organizational data stored within the application, and they must communicate all relevant security and availability issues to Product Fruits through identified corporate support channels.
 
 ---
 
 ## 💡 Key Takeaways for Cloud Compliance
-[Write a short paragraph reflecting on how this system description applies to modern cloud deployments. For example, note how heavily the organization relies on automated cloud-native tools or strict version control (like GitHub) to enforce their written procedures.]
+This case study highlights the critical operational mechanics of the Cloud Shared Responsibility Model in modern cloud deployments. It clearly defines security boundaries, illustrating where the infrastructure provider's liability ends and the organization's technical ownership begins. Whether deploying in AWS or Microsoft Azure, foundational GRC strategies remain identical: enforcing strict Role Based Access Control (RBAC) and the Principle of Least Privilege to effectively minimize the blast radius of a potential breach.
+
+Furthermore, this report demonstrates that modern compliance relies heavily on cloud native automation and strict version control. Rather than relying on manual checks, written policies are  enforced through tools like GitHub peer reviews for change management and Sprinto for continuous compliance monitoring. Finally, the report highlights the  procedures required to respond to a data breach—such as severity classification and customer notification timelines—paired alongside the  preventative security measures (like MFA and AES 256 bit encryption at rest) designed to prevent a breach from occurring in the first place. Ultimately, auditing a modern cloud application requires evaluating an interconnected ecosystem of third party tools, verifying that every automated workflow aligns seamlessly with organizational risk boundaries.
