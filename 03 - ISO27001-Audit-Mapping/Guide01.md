@@ -6,9 +6,9 @@
 ---
 
 ## 💡 The Big Picture
-Most people think ISO 27001 is just paperwork for lawyers. **They’re wrong.** For us in Cloud Engineering, ISO 27001 (specifically **Annex A**) is the ultimate architectural blueprint. It’s the "Why" behind the "How."
+In Cloud Engineering, ISO 27001 (specifically **Annex A**) is an architectural blueprint. It’s the "Why" behind the "How" for creating certain resources and infrastrcuture in the cloud. 
 
-Instead of just clicking buttons in the Azure portal, I’ve been mapping technical features directly to global security standards to build "Audit-Ready" infrastructure.
+In here,  I’ve been mapping technical features directly to global security standards to build "Audit-Ready" infrastructure in Azure.
 
 ---
 
