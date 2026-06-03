@@ -31,7 +31,3 @@ A comprehensive technical evaluation of a high-value cloud asset through the len
 * **Integrity:** Preventing malicious alteration of generated customer invoices by implementing Immutable Storage and WORM (Write Once, Read Many) policies.
 * **Availability:** Ensuring business continuity against regional outages or accidental deletion through Geo-Redundant Storage (GRS) replication and Blob Soft Delete retention policies (ISO 27001 Annex A 8.14).
 * **Risk Treatment Summary:** A formal register tracking inherent risk levels against the applied Azure technical controls to prove managed residual risk.
-
----
-
-*This portfolio is aligned with core competencies required for modern IT auditing and Management Information Systems (MIS) objectives, focusing on Compliance as Code.*
