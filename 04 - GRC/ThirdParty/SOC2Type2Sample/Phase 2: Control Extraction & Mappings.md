@@ -1,7 +1,7 @@
 # Phase 2: Control Extraction & Mapping
 
 ### 🎯 Objective
-This phase translates the theoretical compliance requirements identified in the Product Fruits SOC 2 Type 2 report into a practical, technical audit program. By mapping the original AWS-native controls to a Microsoft Azure and GitHub architecture, this framework demonstrates how "Compliance as Code" is actively enforced and audited in a modern cloud environment.
+Phase 2 involves converting the theoretical compliance requirements identified in the Product Fruits SOC 2 Type 2 report into a practical, technical audit program. This is done by mapping the original AWS-native controls to a Microsoft Azure and GitHub architecture, this framework demonstrates how "Compliance as Code" is actively enforced and audited in a modern cloud environment.
 
 ### 🗺️ Methodology
 The following Risk Register and Audit Program bridges the gap between GRC policy and cloud engineering. It takes the formal Trust Services Criteria (TSC) from the SOC 2 report, identifies the inherent business risk, assigns the specific Azure technical control, establishes the automated GitHub enforcement mechanism, and defines the exact testing procedure an IT auditor would use to verify compliance.
