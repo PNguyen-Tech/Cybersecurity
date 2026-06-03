@@ -13,11 +13,11 @@ Documentation of core GRC frameworks and concepts.
 * **SOC 2 Trust Services Criteria:** Analysis of Security, Availability, and Confidentiality.
 * **MIS Coursework:** Academic reflections on IT auditing and governance.
 
-### 🧪 [Samples/](./Samples/)
+### 🧪 [Third Party Risk & Vendor Assessments/](./ThirdParty/)
 A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles for external environments. 
 * **SOC 2 Type 2 Report:** This project deconstructs a real-world SOC 2 Type 2 report to bridge the gap between theoretical risk management and practical cloud architecture. Through framework analysis, cross-cloud technical mapping, and simulated auditing, it establishes the foundation for IT governance and auditing methodologies.(Work in Progress)
 
-### 🌐 [Live-Projects/](./Live-Projects/)
+### 🌐 [Internal Audits & Technical Controls/](./InternalAudits/)
 A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles for internal environments. 
 
 * **SNHS Website Audit:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions. (Work in Progress)
