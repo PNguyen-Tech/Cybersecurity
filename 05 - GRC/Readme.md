@@ -1,6 +1,6 @@
 # Governance, Risk, and Compliance (GRC) Portfolio
 
-Welcome to my dedicated GRC repository. As a physics educator and adjunct professor pivoting into Cybersecurity and Cloud Engineering, I use this space to demonstrate how technical configurations translate into measurable business risks and organizational compliance.
+Welcome to my dedicated GRC repository. This space to demonstrate how technical configurations translate into measurable business risks and organizational compliance.
 
 This portfolio is a core component of my Master of Science in Management Information Systems (MIS) studies at the University of Houston's C.T. Bauer College of Business.
 
@@ -21,7 +21,7 @@ A collection of simulated audits and risk assessments demonstrating the practica
 
 ### 🌐 [Live-Projects/](./Live-Projects/)
 GRC reports for active technical deployments.
-* **SNHS Website Audit:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions.
+* **SNHS Website Audit:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions. (Work in Progress)
 
 ---
 
