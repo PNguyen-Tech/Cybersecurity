@@ -1,58 +1,54 @@
-**Case Study: Canvas LMS Data Breach (2026)**
+# Case Study: ManageMyHealth Data Breach (2025)
 
-📊 Overview
+## 📊 Overview
 
-* **Incident Period:** April 25, 2026 – May 12, 2026
-* **Threat Actor:** ShinyHunters (Cybercriminal Group)
-* **Target:** Instructure (Parent company of the Canvas Learning Management System)
-* **Primary Vector:** Exploitation of an issue related to the platform's Free-For-Teacher account program
+* **Incident Period:** December 30, 2025 (Discovery) – January 2026
+* **Threat Actor:** Unknown / Claimed by "Kazu" (Cybercriminal/Extortionist)
+* **Target:** ManageMyHealth (New Zealand's largest online patient portal)
+* **Primary Vector:** Unauthorized external access via a vulnerability in the platform's document storage module API/code.
 
-🚨 The Incident
+## 🚨 The Incident
 
-In late April and early May 2026, Instructure, the parent company of the widely used Canvas LMS, experienced a massive data breach affecting an estimated 275 million user records across nearly 9,000 educational institutions worldwide. The cybercriminal group ShinyHunters claimed responsibility, extracting 3.65 terabytes of data, including names, email addresses, student IDs, and private messages. On May 7, the group disrupted operations by defacing the Canvas login page with a ransomware message, forcing the system offline and causing temporary outages across numerous universities during their final exam periods.
+In late December 2025, ManageMyHealth, the widely used patient portal in New Zealand, suffered a major cybersecurity breach. Discovered on December 30, 2025, unauthorized actors exploited a vulnerability to access a specific feature of the platform, exposing over 400,000 sensitive medical documents. The breach affected approximately 120,000 to 127,000 registered users. The compromised data included highly sensitive clinical documents such as hospital discharge summaries, specialist referrals, laboratory test results, and clinical correspondence. Following the breach, an actor using the moniker "Kazu" claimed responsibility and reportedly attempted extortion, leading the company to seek an urgent High Court injunction to prevent the dissemination of the stolen data.
 
-🥷 Attack Chain: How the Hackers Compromised the System
+## 🥷 Attack Chain: How the Hackers Compromised the System
 
 **1. Initial Access**
-On April 25, 2026, unauthorized actors gained access to Canvas systems. Instructure confirmed that the unauthorized actor exploited an issue related to the Free-For-Teacher account program to gain this initial access.
+Sometime prior to December 30, 2025, the attackers exploited specific code gaps related to the platform's "My Health Documents" storage module. This vulnerability allowed unauthorized API or web-facing access without requiring direct compromise of individual user passwords.
 
 **2. Data Exfiltration**
-Once inside the production data environment, the attackers successfully downloaded 3.65 terabytes of records containing personal information and private messaging of approximately 275 million users.
+Once access to the module was established, the attackers systematically copied and exfiltrated over 400,000 files. These files contained deep clinical histories, some dating back to 2017, bypassing the core patient database but severely compromising user privacy.
 
-**3. Discovery & First Remediation Attempt**
-Instructure detected the intrusion on April 29, revoked the unauthorized access, and engaged third-party cyber forensics experts. On May 6, they initially claimed the situation had been resolved.
+**3. Discovery & Initial Response**
+ManageMyHealth was notified of the unauthorized access by a partner organization on December 30. The company immediately mobilized a response team, contained the vulnerability, and engaged independent forensic specialists alongside notifying New Zealand Police, Health New Zealand, and the Privacy Commissioner.
 
-**4. Second Attack & Defacement (Evasion/Disruption)**
-Despite Instructure's claims, Canvas was hacked again on May 7, with its login page replaced with a ransomware message by ShinyHunters. The group threatened to release the sensitive data unless its ransom was paid by May 12. This forced Instructure to take Canvas offline for investigation and permanently shut down the Free-For-Teacher account program.
+**4. Extortion & Legal Action**
+Early in the incident, the attackers leaked a small number of documents online and reportedly demanded a ransom (alleged to be around $60,000). In response, ManageMyHealth secured an interim High Court injunction to legally restrict the publication, reporting, or misuse of the stolen data by third parties and media organizations.
 
-🔍 Root Cause
+## 🔍 Root Cause
 
-The attackers exploited an underlying structural issue related to Canvas's Free-For-Teacher accounts, which allowed them to gain initial entry into production Canvas data.
+The attackers exploited a structural vulnerability (code gaps) within the document storage module of the platform. Excessive data accessibility and insufficient access controls on this specific module allowed bulk exfiltration of files, demonstrating a failure in API security governance, anomaly detection, and zero-trust segmentation.
 
-💥 Business & Human Impact
+## 💥 Business & Human Impact
 
-* **Data Exposure:** 275 million individual records were compromised, including names, institutional email addresses, student ID numbers, and direct messages. This exposure enables highly targeted spear-phishing and account takeover attempts.
-* **Operational Paralysis:** Canvas was forced offline on May 7, severely disrupting academic operations for students and faculty globally during final exams.
-* **Financial & Legal Repercussions:** Instructure paid an undisclosed ransom to ShinyHunters to secure the deletion of the stolen data, receiving "shred logs" as digital confirmation. The company currently faces multiple class-action lawsuits over the failure to protect user data.
+* **Data Exposure:** Sensitive medical histories, including lab results and specialist letters for over 120,000 patients, were exposed, leaving them vulnerable to identity theft, medical fraud, and targeted phishing/blackmail.
+* **Reputational Damage & Loss of Trust:** As New Zealand's largest patient portal (with 1.8 million users), the incident deeply eroded public trust in digital healthcare infrastructure and third-party health data custodians.
+* **Legal & Regulatory Scrutiny:** The breach triggered sweeping reviews by Health New Zealand, the Office of the Privacy Commissioner, and the National Cyber Security Centre (NCSC), alongside the unprecedented use of a High Court injunction to suppress data dissemination.
 
-🛠️ Remediation & Lessons Learned
+## 🛠️ Remediation & Lessons Learned
 
-* **Immediate Response:** Instructure revoked privileged credentials, rotated application keys, permanently shut down the Free-For-Teacher program, and deployed patches. They ultimately paid the ransom to prevent the data from being leaked publicly.
+* **Immediate Response:** ManageMyHealth secured the compromised feature, mandated strict Two-Step Verification (MFA) for all users, preserved forensic evidence, and directly notified affected patients via dashboard alerts.
 * **Strategic Lessons:**
-* **Vulnerability Management in Freemium Tiers:** Security flaws in free or lower-tier product offerings (like the Free-For-Teacher accounts) can be leveraged to compromise the broader production environment containing sensitive institutional data.
-* **Incident Transparency & Communication:** Instructure faced backlash and issued an apology for a lack of transparency after prematurely claiming the issue was resolved before the May 7 defacement occurred. Transparent, accurate communication is critical during an active incident.
-
-
+  * **Identity & Access as Critical Infrastructure:** Web-facing healthcare APIs require banking-grade security, continuous session anomaly detection, and strict zero-trust authorization.
+  * **Blast Radius Containment:** Patient portals must enforce least privilege by default and segment patient records to prevent bulk data aggregation and exfiltration if a single module is compromised.
+  * **Proactive Threat Modeling:** Security monitoring must look beyond standard malware alerts to detect "impossible" behavior, such as abnormal download volumes and repeated document access patterns.
 
 ---
 
 ### Citations
 
-* **:** Bitdefender. (2026, May 8). *Technical Advisory: ShinyHunters Breach of Instructure Canvas LMS.*
-* **:** Wikipedia. (2026, May 27). *2026 Canvas data breach.*
-* **:** Daily Nexus. (2026, May 27). *Aftermath of the Canvas breach: What's next?*
-* **:** Dataminr. (2026, May 5). *Cyber Intel Brief: ShinyHunters Claims Breach of Instructure Canvas LMS.*
-* **:** Reddit / Associated Press. (2026, May 13). *DEAL STRUCK WITH HACKERS TO DELETE DATA STOLEN FROM CANVAS.*
-
-[ShinyHunters strikes Instructure Canvas in second breach](https://www.youtube.com/shorts/RE66y61hjxw)
-This video provides a concise breakdown of the ShinyHunters attack on Instructure's Canvas platform, detailing the scope of the exfiltrated records and the threat group's claims regarding the breach.
+* Manage My Health. (2026, March 4). *MMH Privacy Breach Public Notice.*
+* Wikipedia. (2026). *ManageMyHealth data breach.*
+* Accredian / Taiyab Lokhandwala. (2026, February 6). *Case Study: ManageMyHealth Data Breach.*
+* Bright Defense. (2026, March 15). *ManageMyHealth Breach Exposes 126K Users.*
+* The HiNZ eHealth Forum. (2026, January). *Manage My Health cybersecurity breach 30 Dec 2025.*
