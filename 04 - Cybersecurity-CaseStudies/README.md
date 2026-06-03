@@ -9,8 +9,8 @@ On some case studies, there will be a link to ISO 27001 to practice mapping the 
 | Incident | Year | Primary Vector | Key Lesson |
 | :--- | :--- | :--- | :--- |
 | **Conduent Data Breach** | 2025 | Network intrusion targeting unencrypted "data in use" | Continuous Encryption|
-| **Stryker Wiper Attack** | 2026 | Compromised administrative account weaponizing MDM (Intune) | Zero Standing Privileges (ZSP) |
-| **Jaguar Land Rover (JLR)** | 2025 | Unpatched Third-Party Software (SAP) & IT/OT Pivot | Enforce strict IT/OT network segmentation and automate vendor vulnerability management to prevent operational shutdowns. |
 | **TransUnion Data Breach** | 2025 | Exploitation of third-party Salesforce integrations by the ShinyHunters threat group. | Implement strict Third-Party Risk Management (TPRM) and SaaS Posture Management. |
-| **Canvas Data Breach** | 2026 | Exploitation of a vulnerability related to the platform's Free-For-Teacher accounts. | Secure and isolate freemium product tiers to prevent compromise of broader production environments. |
+| **Jaguar Land Rover (JLR)** | 2025 | Unpatched Third-Party Software (SAP) & IT/OT Pivot | Enforce strict IT/OT network segmentation and automate vendor vulnerability management to prevent operational shutdowns. |
+| **Stryker Wiper Attack** | 2026 | Compromised administrative account weaponizing MDM (Intune) | Zero Standing Privileges (ZSP) |
 | **Citizens Financial & Frost Bank** | 2026 | Supply chain compromise via a shared third-party vendor. | Implement rigorous Third-Party Risk Management (TPRM) and continuous vendor compliance auditing. |
+| **Canvas Data Breach** | 2026 | Exploitation of a vulnerability related to the platform's Free-For-Teacher accounts. | Secure and isolate freemium product tiers to prevent compromise of broader production environments. |
