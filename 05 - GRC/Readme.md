@@ -14,13 +14,12 @@ Documentation of core GRC frameworks and concepts.
 * **MIS Coursework:** Academic reflections on IT auditing and governance.
 
 ### 🧪 [Samples/](./Samples/)
-A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles.
-* **Cloud Infrastructure Assessments:** Evaluating encryption, identity access management, and overall security posture for modern cloud environments.
-* **Industry Compliance Scenarios:** Simulated evaluations of high-availability business systems against standard regulatory frameworks to ensure operational resilience.
+A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles for external environments. 
+* **SOC 2 Type 2 Report:** This project deconstructs a real-world SOC 2 Type 2 report to bridge the gap between theoretical risk management and practical cloud architecture. Through framework analysis, cross-cloud technical mapping, and simulated auditing, it establishes the foundation for IT governance and auditing methodologies.(Work in Progress)
 
 ### 🌐 [Live-Projects/](./Live-Projects/)
-GRC reports for active technical deployments.
-* **SOC 2 Type 2 Report:** This project deconstructs a real-world SOC 2 Type 2 report to bridge the gap between theoretical risk management and practical cloud architecture. Through framework analysis, cross-cloud technical mapping, and simulated auditing, it establishes the foundation for IT governance and auditing methodologies.(Work in Progress)
+A collection of simulated audits and risk assessments demonstrating the practical application of GRC principles for internal environments. 
+
 * **SNHS Website Audit:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions. (Work in Progress)
 
 ---
