@@ -20,7 +20,7 @@ A collection of simulated audits and risk assessments demonstrating the practica
 
 ### 🌐 [Live-Projects/](./Live-Projects/)
 GRC reports for active technical deployments.
-* **SOC 2 Type 2 Report:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions. (Work in Progress)
+* **SOC 2 Type 2 Report:** This project deconstructs a real-world SOC 2 Type 2 report to bridge the gap between theoretical risk management and practical cloud architecture. Through framework analysis, cross-cloud technical mapping, and simulated auditing, it establishes the foundation for IT governance and auditing methodologies.(Work in Progress)
 * **SNHS Website Audit:** A professional GRC report for a site built with Azure Static Web Apps and GitHub Actions. (Work in Progress)
 
 ---
