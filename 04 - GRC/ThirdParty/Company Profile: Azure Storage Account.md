@@ -1,4 +1,4 @@
-Let’s walk through a mock risk assessment. This is exactly the kind of practical analysis required in Governance, Risk, and Compliance (GRC) roles, and it heavily utilizes core cloud administration concepts like those found in the Azure environment.
+
 
 For this scenario, we will assess a specific, high-value cloud asset: **An Azure Storage Account used to store a company's generated customer invoices (PDFs).**
 
